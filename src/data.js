@@ -30,7 +30,7 @@ export default [
     id: 1,
     image: TTTLogo,
     title: "Tic-Tac-Toe",
-    displayImages: [a1, a2, a3, a4, a5],
+    displayImages: [a3, a2, a1, a4, a5],
     text: `<p> This Tic Tac Toe website offers a versatile and engaging game experience with both player-versus-player and player-versus-AI game modes.
 
     Initially, this website originated = a React course that I've been actively studying. However, once I finished programming the website, I took it upon myself to continue working on it. Originally, the game was only playable with two players, and there was no AI mode.
@@ -46,6 +46,8 @@ export default [
     The TwoPlayer and AiGame components manage distinct game boards, each equipped with its own GameBoard component for rendering the grid and a GameOver component for displaying end-game messages. The app also includes a Log component to record each move, giving players a detailed history of their gameplay.
   
     </p> <br/> <p> You can follow the button below this text container to take a look at this project on my GitHub page, or alternatively, you can select the other button, which will take you directly to the website so that you can check it out for yourself.</p>`,
+    condensedText:
+      "This Tic Tac Toe website offers player-versus-player and player-versus-AI modes with three AI difficulty levels. It uses React for state management and features components for game boards, logs, and end-game messages. The hard AI employs the Minimax algorithm for strategic gameplay.",
     gitHubLink: "https://github.com/MiloszWrobel/Tic-Tac-Toe-Project-Revisit",
   },
   {
@@ -62,6 +64,8 @@ export default [
     Some are simple websites, such as calculators, while others are more advanced, such as the Tic Tac Toe game with an AI opponent. 
     
     </p> <br/> <p> You can follow the button below to take a look at all of these projects on my GitHub page.</p>`,
+    condensedText:
+      "A collection of React projects created during my learning journey, showcasing skills from simple components to advanced applications like a Tic Tac Toe game with AI.",
     gitHubLink: "https://github.com/MiloszWrobel?tab=repositories",
   },
   {
@@ -77,6 +81,8 @@ export default [
     <p>After building various projects through the course, this portfolio represents one of my first completely independent web development projects
     created without tutorials or external guidance. I added an extra challenge by implementing all styling using Tailwind CSS rather than traditional CSS, pushing myself to learn this modern utility-first framework. This is also the first website that I made that was deployed using vercel.</p>
   `,
+    condensedText:
+      "My portfolio website showcases my projects and skills, built independently using React and styled with Tailwind CSS. It represents my transition from Java to web development.",
     gitHubLink: "https://milosz-wrobel.vercel.app",
   },
   {
@@ -97,6 +103,8 @@ export default [
     <p>Developing RedBaboon was both a rewarding and enjoyable experience. In fact, we enjoyed it so much that we took our collaboration further by working on our next project: Funky Friday.</p>  
     <br>  
     <p>Click the button below to explore the app yourself.</p>`,
+    condensedText:
+      "RedBaboon is a mobile-first climbing tracker app built with Next.js, MongoDB, and Google Auth. It allows users to log climbs, track progress, and interact with posts.",
     gitHubLink: "https://redbaboon.vercel.app",
   },
   {
@@ -113,6 +121,8 @@ export default [
     <p>We maintain weekly standups to review progress and plan upcoming work. This represents the most professional project I've worked on to date, and it's still actively evolving. I'm applying all my university knowledge and past experience to this ongoing development, and I'm excited to see where we take it as we're still in the early stages of production.</p>
     <br>
     <p>Click the button below to explore the app yourself.</p>`,
+    condensedText:
+      "FunkyFriday is an album rating app where users rate albums without seeing others' ratings. Built with Next.js and MongoDB, it follows agile methodologies and professional workflows.",
     gitHubLink: "https://funkyfriday.vercel.app",
   },
 ]
