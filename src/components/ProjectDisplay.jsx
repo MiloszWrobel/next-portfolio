@@ -16,9 +16,11 @@ export default function ProjectDisplay({ projectId }) {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 relative  ">
-      <div className="flex justify-center items-center p-4 border-b-2 bg-white border-stone-300 fixed min-w-full z-10 ">
-        <h1 className=" m-4 top-4 text-3xl text-stone-900 ">{WEBSITES[projectId - 1].title}</h1>
+    <div className="min-h-screen bg-gray-200 relative  ">
+      <div className="flex justify-center items-center p-4 border-b-2 bg-gray-100 border-stone-300 fixed min-w-full z-10 ">
+        <h1 className=" m-4 top-4 text-3xl text-stone-900 font-bold ">
+          {WEBSITES[projectId - 1].title}
+        </h1>
         <img src={WEBSITES[projectId - 1].image} className="w-[50px] h-[50px] rounded-2xl" />
       </div>
       <div className=" bg-white  drop-shadow-md rounded-sm p-6 mx-20 mr-50 ml-50">

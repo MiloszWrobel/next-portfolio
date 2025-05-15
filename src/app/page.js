@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="overflow-x-hidden ">
       <Background />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 gap-y-4 overflow-hidden bg-gray-100 pl-5 pr-5 pt-5 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 gap-y-4 overflow-hidden bg-gray-200 pl-10 pr-10 pt-5 ">
         {WEBSITES.map(project => (
           <ProjectCard
             key={project.id}
