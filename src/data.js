@@ -28,65 +28,24 @@ const e5 = "/assets/e5.png"
 export default [
   {
     id: 1,
-    image: TTTLogo,
-    title: "Tic-Tac-Toe",
-    displayImages: [a3, a2, a1, a4, a5],
-    text: `<p> This Tic Tac Toe website offers a versatile and engaging game experience with both player-versus-player and player-versus-AI game modes.
-
-    Initially, this website originated = a React course that I've been actively studying. However, once I finished programming the website, I took it upon myself to continue working on it. Originally, the game was only playable with two players, and there was no AI mode.
-    
-    Naturally, I thought to myself that that was the next step I should take when working on a game such as this.
-    
-    Users can select their preferred mode = a Menu component, which provides options for the two-player mode or an AI opponent. For the AI games, players can choose = three difficulty levels: easy, medium, and hard, which adjust the AI's decision-making strategy.
-    
-    </p> <br/> <p> The hard AI difficulty is controlled using a separate Minimax component that enhances gameplay by employing strategic logic to create a challenging opponent. The easy difficulty simply selects a random available square, and the medium difficulty does the same unless it detects a winning move, which it will always take.
-    
-    The app is built with React functionalities such as state management (useState) for tracking game states, player names, and selected squares, creating a responsive and interactive experience.
-    
-    The TwoPlayer and AiGame components manage distinct game boards, each equipped with its own GameBoard component for rendering the grid and a GameOver component for displaying end-game messages. The app also includes a Log component to record each move, giving players a detailed history of their gameplay.
-  
-    </p> <br/> <p> You can follow the button below this text container to take a look at this project on my GitHub page, or alternatively, you can select the other button, which will take you directly to the website so that you can check it out for yourself.</p>`,
+    image: ffLogo,
+    title: "Funky Friday",
+    displayImages: [e1, e2, e3, e4, e5],
+    text: `<p>FunkyFriday is a unique album rating app with a simple premise: you can't see any album's rating until you've rated it yourself. We developed this idea after realising how much people's perceptions can be skewed by seeing overall ratings beforehand.</p>
+    <br>
+    <p>With FunkyFriday, we aimed to apply everything we learned = RedBaboon while taking our development to the next level. While similar in some ways (again hosted on Vercel, using MongoDB and Next.js), we adopted a more professional approach this time. We implemented agile methodologies, using Excalidraw for UX design where we mapped out user journeys, discussed features, and planned functionality before implementation.</p>
+    <br>
+    <p>After finalising the UX design, we used Jira's Kanban board to create epics and break them down into manageable tickets. We assigned tickets to each other, working both independently and through pair programming sessions. Each feature went through GitHub pull requests with code reviews before merging into master - establishing a proper development workflow.</p>
+    <br>
+    <p>We maintain weekly standups to review progress and plan upcoming work. This represents the most professional project I've worked on to date, and it's still actively evolving. I'm applying all my university knowledge and past experience to this ongoing development, and I'm excited to see where we take it as we're still in the early stages of production.</p>
+    <br>
+    <p>Click the button below to explore the app yourself.</p>`,
     condensedText:
-      "This Tic Tac Toe website offers player-versus-player and player-versus-AI modes with three AI difficulty levels. It uses React for state management and features components for game boards, logs, and end-game messages. The hard AI employs the Minimax algorithm for strategic gameplay.",
-    gitHubLink: "https://github.com/MiloszWrobel/Tic-Tac-Toe-Project-Revisit",
+      "FunkyFriday is an album rating app where users rate albums without seeing others' ratings. Built with Next.js and MongoDB, it follows agile methodologies and professional workflows.",
+    gitHubLink: "https://funkyfriday.vercel.app",
   },
   {
     id: 2,
-    image: reactLogo,
-    title: "React Websites",
-    displayImages: [b1, b2, b3, b4],
-    text: `<p> This is a collection of various React projects that I have created during my learning journey. 
-    
-    All of these projects originated = following a React course, so while they are not my own ideas, completing them has taught me all the essential skills that I later used to create my own projects. 
-    
-    Each project showcases different aspects of React development, = simple components to more complex applications. 
-    
-    Some are simple websites, such as calculators, while others are more advanced, such as the Tic Tac Toe game with an AI opponent. 
-    
-    </p> <br/> <p> You can follow the button below to take a look at all of these projects on my GitHub page.</p>`,
-    condensedText:
-      "A collection of React projects created during my learning journey, showcasing skills from simple components to advanced applications like a Tic Tac Toe game with AI.",
-    gitHubLink: "https://github.com/MiloszWrobel?tab=repositories",
-  },
-  {
-    id: 3,
-    image: portLogo,
-    title: "Portfolio website",
-    displayImages: [c1, c2, c3],
-    text: `<p> This is my portfolio website, which I created to showcase my projects and skills.
-    I wanted to create a simple and clean design that would allow visitors to easily navigate through my work and learn more about me.<p>
-    <br> 
-    <p>During my university studies, I primarily programmed in Java. While JavaScript and Java share some similarities, developing websites in React presented a significant challenge for me. This motivated me to invest in a dedicated React course to strengthen my skills.</p>
-    <br>
-    <p>After building various projects through the course, this portfolio represents one of my first completely independent web development projects
-    created without tutorials or external guidance. I added an extra challenge by implementing all styling using Tailwind CSS rather than traditional CSS, pushing myself to learn this modern utility-first framework. This is also the first website that I made that was deployed using vercel.</p>
-  `,
-    condensedText:
-      "My portfolio website showcases my projects and skills, built independently using React and styled with Tailwind CSS. It represents my transition from Java to web development.",
-    gitHubLink: "https://milosz-wrobel.vercel.app",
-  },
-  {
-    id: 4,
     image: redBaboonLogo,
     title: "RedBaboon",
     displayImages: [d1, d2, d3, d4],
@@ -108,21 +67,55 @@ export default [
     gitHubLink: "https://redbaboon.vercel.app",
   },
   {
-    id: 5,
-    image: ffLogo,
-    title: "Funky Friday",
-    displayImages: [e1, e2, e3, e4, e5],
-    text: `<p>FunkyFriday is a unique album rating app with a simple premise: you can't see any album's rating until you've rated it yourself. We developed this idea after realising how much people's perceptions can be skewed by seeing overall ratings beforehand.</p>
-    <br>
-    <p>With FunkyFriday, we aimed to apply everything we learned = RedBaboon while taking our development to the next level. While similar in some ways (again hosted on Vercel, using MongoDB and Next.js), we adopted a more professional approach this time. We implemented agile methodologies, using Excalidraw for UX design where we mapped out user journeys, discussed features, and planned functionality before implementation.</p>
-    <br>
-    <p>After finalising the UX design, we used Jira's Kanban board to create epics and break them down into manageable tickets. We assigned tickets to each other, working both independently and through pair programming sessions. Each feature went through GitHub pull requests with code reviews before merging into master - establishing a proper development workflow.</p>
-    <br>
-    <p>We maintain weekly standups to review progress and plan upcoming work. This represents the most professional project I've worked on to date, and it's still actively evolving. I'm applying all my university knowledge and past experience to this ongoing development, and I'm excited to see where we take it as we're still in the early stages of production.</p>
-    <br>
-    <p>Click the button below to explore the app yourself.</p>`,
+    id: 3,
+    image: portLogo,
+    title: "Portfolio website",
+    displayImages: [c1, c2, c3],
+    text: `<p>This portfolio website serves as a showcase for my projects and professional skills. I designed it with a clean, minimalist aesthetic to ensure visitors can easily explore my work and background.</p><br/>
+
+<p>My programming journey began with Java during university studies. Though JavaScript shares some syntax similarities with Java, adapting to React's component-based architecture proved challenging. This learning curve inspired me to enroll in a comprehensive React course to develop these new skills.</p><br/>
+
+<p>Following numerous guided projects from the course, this portfolio marks my first fully independent web development endeavor - conceived and built without tutorial assistance. I further challenged myself by implementing all styling exclusively with Tailwind CSS, mastering this utility-first framework. Additionally, this represents my first experience deploying a website using Vercel's platform.</p>`,
     condensedText:
-      "FunkyFriday is an album rating app where users rate albums without seeing others' ratings. Built with Next.js and MongoDB, it follows agile methodologies and professional workflows.",
-    gitHubLink: "https://funkyfriday.vercel.app",
+      "My portfolio website showcases my projects and skills, built independently using React and styled with Tailwind CSS. It represents my transition from Java to web development.",
+    gitHubLink: "https://milosz-wrobel.vercel.app",
+  },
+  {
+    id: 4,
+    image: reactLogo,
+    title: "React Websites",
+    displayImages: [b1, b2, b3, b4],
+    text: `<p>This portfolio showcases various React projects I've developed throughout my learning process.</p><br/>
+
+<p>While these projects originated from following a React course (meaning the concepts weren't my own), completing them provided me with the fundamental skills I later applied to original work.</p><br/>
+
+<p>The collection demonstrates a range of React development techniques - from basic component creation to more sophisticated application building.</p><br/>
+
+<p>It includes simpler implementations like calculator interfaces alongside more complex systems such as the AI-powered Tic Tac Toe game.</p><br/>
+
+<p>You can explore all these projects by clicking the GitHub button below.</p>`,
+    condensedText:
+      "A collection of React projects created during my learning journey, showcasing skills from simple components to advanced applications like a Tic Tac Toe game with AI.",
+    gitHubLink: "https://github.com/MiloszWrobel?tab=repositories",
+  },
+  {
+    id: 5,
+    image: TTTLogo,
+    title: "Tic-Tac-Toe",
+    displayImages: [a3, a2, a1, a4, a5],
+    text: `<p>This Tic Tac Toe web application provides an interactive gaming experience featuring both player-versus-player and player-versus-computer gameplay options.</p><br/>
+
+<p>The project began as part of a React development course I was taking. After completing the initial requirements - which only included two-player functionality - I decided to expand the project further by implementing an AI opponent.</p><br/>
+
+<p>Through the game's menu interface, players can select either traditional two-player mode or challenge the computer at three distinct difficulty levels. The AI's behavior varies significantly between easy (random moves), medium (opportunistic wins), and hard (strategic Minimax algorithm) settings.</p><br/>
+
+<p>The advanced difficulty mode utilizes a dedicated Minimax algorithm component that analyzes potential moves to provide a formidable challenge. At the easiest level, the computer makes random selections, while the medium difficulty adds basic win detection to capitalize on immediate opportunities.</p><br/>
+
+<p>Built with React, the application employs useState hooks to manage game state, track player information, and monitor board positions. Separate TwoPlayer and AiGame components handle the different modes, each with their own GameBoard displays and GameOver notifications. A comprehensive move Log component maintains a complete history of gameplay.</p><br/>
+
+<p>You can explore this project further by clicking the GitHub button below to view the source code, or use the website button to experience the game directly in your browser.</p>`,
+    condensedText:
+      "This Tic Tac Toe website offers player-versus-player and player-versus-AI modes with three AI difficulty levels. It uses React for state management and features components for game boards, logs, and end-game messages. The hard AI employs the Minimax algorithm for strategic gameplay.",
+    gitHubLink: "https://github.com/MiloszWrobel/Tic-Tac-Toe-Project-Revisit",
   },
 ]

@@ -15,7 +15,7 @@ export default function Background() {
       <img
         src={cityImage}
         alt="background"
-        className="w-full  object-cover saturate-80 brightness-50"
+        className="w-full object-cover saturate-80 brightness-50 fixed z-[-1]"
         style={{ height: "100vh" }}
       />
       <h2 className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-5xl font-bold text-white">
