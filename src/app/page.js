@@ -20,6 +20,7 @@ function App() {
             text={project.condensedText}
             image={project.displayImages[0]}
             id={project.id}
+            hoverColour={project.hoverColour}
           />
         ))}
       </div>
